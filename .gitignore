@@ -1,0 +1,4 @@
+/.npmrc
+/node_modules
+/examples/*/.umi
+/examples/*/node_modules

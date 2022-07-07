@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "umi dev",
+    "dev": "umi dev",
+    "build": "umi build",
+    "setup": "umi setup"
+  },
+  "dependencies": {
+    "umi": "4"
+  }
+}
