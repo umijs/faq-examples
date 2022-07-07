@@ -4,9 +4,9 @@ importers:
 
   examples/history:
     specifiers:
-      umi: '4'
+      umi: 4.0.0-canary.20220628.2
     dependencies:
-      umi: 4.0.5
+      umi: 4.0.0-canary.20220628.2
 
 packages:
 
@@ -969,7 +969,7 @@ packages:
       postcss: '>=7.0.0'
       postcss-syntax: '>=0.36.2'
     dependencies:
-      '@babel/core': 7.17.9
+      '@babel/core': 7.18.6
       postcss: 8.4.14
       postcss-syntax: 0.36.2_postcss@8.4.14
     transitivePeerDependencies:
@@ -1441,32 +1441,32 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: false
 
-  /@umijs/ast/4.0.5:
-    resolution: {integrity: sha512-ts0Abs1ZtlPMotEpNquNTj7pP9M0O3Capv8Zbh/d1YQ5k5OTCQEER8uGbKWUz/4czomOfsBWEFxdePEAuEQDVg==, tarball: https://registry.npm.alibaba-inc.com/@umijs/ast/download/@umijs/ast-4.0.5.tgz}
+  /@umijs/ast/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-9ZqpFB4UnhBb9jPsgk8zbDZzKx3clYDc7kShDy1LcTQ2/domiO5iJgYz1ap57ykdNixleE2b2662SdXZ2SaQ6A==, tarball: https://registry.npm.alibaba-inc.com/@umijs/ast/download/@umijs/ast-4.0.0-canary.20220628.2.tgz}
     dependencies:
-      '@umijs/bundler-utils': 4.0.5
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@umijs/babel-preset-umi/4.0.5:
-    resolution: {integrity: sha512-otNo/XRPDnvxSw2W/X6An3QnsB0fQ6bvr1Ieti6SS+6hrVV3rfyhnZ4xHtR87D75TLl2DCpzLbljdukAV7cyNw==, tarball: https://registry.npm.alibaba-inc.com/@umijs/babel-preset-umi/download/@umijs/babel-preset-umi-4.0.5.tgz}
+  /@umijs/babel-preset-umi/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-eBQeiIUU11M1oGAWqvBpoPAbVPkapUZsZqtBd9TDpKbGoqtKPQ49F5TVXeZByE07VW3ByrJz7Y4n1dh6LaTVvQ==, tarball: https://registry.npm.alibaba-inc.com/@umijs/babel-preset-umi/download/@umijs/babel-preset-umi-4.0.0-canary.20220628.2.tgz}
     dependencies:
       '@babel/runtime': 7.17.9
       '@bloomberg/record-tuple-polyfill': 0.0.4
-      '@umijs/bundler-utils': 4.0.5
-      '@umijs/utils': 4.0.5
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
+      '@umijs/utils': 4.0.0-canary.20220628.2
       core-js: 3.22.4
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@umijs/bundler-esbuild/4.0.5:
-    resolution: {integrity: sha512-lUmsJ7xB8FGBQ+YAnvbksiEi5cQT8Moa09sS60Cf6Z+HqeHMRhWi6L/2QjoaDt008JlxhVgLWjzVabIHieDc8Q==, tarball: https://registry.npm.alibaba-inc.com/@umijs/bundler-esbuild/download/@umijs/bundler-esbuild-4.0.5.tgz}
+  /@umijs/bundler-esbuild/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-Zhb/yTIZ1EjFF4uqufAyLHIAmdnFXaiTa2gHOuH84OALoT0AQM1jVvPGHn9lLIiLwTihuAnCyds4Tt1/P8Wo7Q==, tarball: https://registry.npm.alibaba-inc.com/@umijs/bundler-esbuild/download/@umijs/bundler-esbuild-4.0.0-canary.20220628.2.tgz}
     hasBin: true
     dependencies:
-      '@umijs/bundler-utils': 4.0.5
-      '@umijs/utils': 4.0.5
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
+      '@umijs/utils': 4.0.0-canary.20220628.2
       enhanced-resolve: 5.9.3
       postcss: 8.4.14
       postcss-flexbugs-fixes: 5.0.2_postcss@8.4.14
@@ -1475,10 +1475,10 @@ packages:
       - supports-color
     dev: false
 
-  /@umijs/bundler-utils/4.0.5:
-    resolution: {integrity: sha512-lvI3xSFe0V3/JZzGxA8XaTp3xLJugYKMnu9FeGVramZjZSLZFDI1L4CrxWCM/ZzeMOHZ8NgL71ZsZEEciXF+Zw==, tarball: https://registry.npm.alibaba-inc.com/@umijs/bundler-utils/download/@umijs/bundler-utils-4.0.5.tgz}
+  /@umijs/bundler-utils/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-3SQYT1O9vkMo8qqkoNfQjq9lY0upLYXQzgQqh9QmZUnN5PfJQj52REPG6TnhmdgxsEDvDfzKAhQICoAOruycMQ==, tarball: https://registry.npm.alibaba-inc.com/@umijs/bundler-utils/download/@umijs/bundler-utils-4.0.0-canary.20220628.2.tgz}
     dependencies:
-      '@umijs/utils': 4.0.5
+      '@umijs/utils': 4.0.0-canary.20220628.2
       esbuild: 0.14.36
       regenerate-unicode-properties: 10.0.1
       spdy: 4.0.2
@@ -1486,14 +1486,14 @@ packages:
       - supports-color
     dev: false
 
-  /@umijs/bundler-vite/4.0.5:
-    resolution: {integrity: sha512-USMlE0xjnvZ1KZ5JkwGwpHxLUz6GmT7QDTmr44+ElIQLInymYYQzP5cI4QN93C/vjN7OclJOxh7BCX0BriLsHg==, tarball: https://registry.npm.alibaba-inc.com/@umijs/bundler-vite/download/@umijs/bundler-vite-4.0.5.tgz}
+  /@umijs/bundler-vite/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-RLFUj3JaRxmws98iSQpWug/zDTKueBc694dUPd27cJMTXvgO7Mtgd3GLhqZShKw0kgPNwbvOCrpBLy0stKdx6A==, tarball: https://registry.npm.alibaba-inc.com/@umijs/bundler-vite/download/@umijs/bundler-vite-4.0.0-canary.20220628.2.tgz}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@svgr/core': 6.2.1
-      '@umijs/bundler-utils': 4.0.5
-      '@umijs/utils': 4.0.5
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
+      '@umijs/utils': 4.0.0-canary.20220628.2
       '@vitejs/plugin-react': 1.2.0
       postcss-preset-env: 7.5.0
       rollup-plugin-visualizer: 5.6.0
@@ -1503,8 +1503,8 @@ packages:
       - supports-color
     dev: false
 
-  /@umijs/bundler-webpack/4.0.5:
-    resolution: {integrity: sha512-J1ABU2gTB3c+ZIk/M0TobfgsabR/UhGfztWWNWFfQlWzapiATfEU+fsHm0Luyj/8cQaXkQAkZZSltBoHtQVdXA==, tarball: https://registry.npm.alibaba-inc.com/@umijs/bundler-webpack/download/@umijs/bundler-webpack-4.0.5.tgz}
+  /@umijs/bundler-webpack/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-tuV7dZgpju6FrWOPI4PPg8Lk5GKU0gMB3TQh4wDMfPYJgLrPu587ztFXVqtOwCip2D2Y6OH5EAO+2oKuWBt5Lg==, tarball: https://registry.npm.alibaba-inc.com/@umijs/bundler-webpack/download/@umijs/bundler-webpack-4.0.0-canary.20220628.2.tgz}
     hasBin: true
     dependencies:
       '@parcel/css': 1.9.0
@@ -1513,10 +1513,10 @@ packages:
       '@svgr/plugin-jsx': 6.2.1_@svgr+core@6.2.1
       '@svgr/plugin-svgo': 6.2.0_@svgr+core@6.2.1
       '@types/hapi__joi': 17.1.8
-      '@umijs/babel-preset-umi': 4.0.5
-      '@umijs/bundler-utils': 4.0.5
-      '@umijs/mfsu': 4.0.5
-      '@umijs/utils': 4.0.5
+      '@umijs/babel-preset-umi': 4.0.0-canary.20220628.2
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
+      '@umijs/mfsu': 4.0.0-canary.20220628.2
+      '@umijs/utils': 4.0.0-canary.20220628.2
       cors: 2.8.5
       css-loader: 6.7.1
       es5-imcompatible-versions: 0.1.74
@@ -1537,24 +1537,24 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /@umijs/core/4.0.5:
-    resolution: {integrity: sha512-n6QwKzB1b1aVqHtrUS5mc+Ke+hvyrQDeXNK4k4XfXa8VXhrNWiP//nYG6KlkUvvtJI9sbeFgTWI1k5nTKBnRtg==, tarball: https://registry.npm.alibaba-inc.com/@umijs/core/download/@umijs/core-4.0.5.tgz}
+  /@umijs/core/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-BLor3jAdNpXX8pi8e5S/MIXR2v5cBNZA3cPepiCEc3JiKXqnu4WEB9XE8a5s7TxHHtMS6j8ZF0VZ6jLnQSgLXw==, tarball: https://registry.npm.alibaba-inc.com/@umijs/core/download/@umijs/core-4.0.0-canary.20220628.2.tgz}
     dependencies:
-      '@umijs/bundler-utils': 4.0.5
-      '@umijs/utils': 4.0.5
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
+      '@umijs/utils': 4.0.0-canary.20220628.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@umijs/lint/4.0.5:
-    resolution: {integrity: sha512-3vkyEP0bbLG2fw8MjdRgtRGXMYQoSLX21guGAKpLeY7WHwjA4dRols3IQQMMXyAIpOAzAUw50T0hxoB/WxqBKQ==, tarball: https://registry.npm.alibaba-inc.com/@umijs/lint/download/@umijs/lint-4.0.5.tgz}
+  /@umijs/lint/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-mgysJc3vwrGCJ4WtzcaY3F8K3bBtihVMJkOoS5dZyqRsRcZCIEKQamuvyrqQudQCuuLfwPre9+OXjdlcjdNXLg==, tarball: https://registry.npm.alibaba-inc.com/@umijs/lint/download/@umijs/lint-4.0.0-canary.20220628.2.tgz}
     dependencies:
       '@babel/core': 7.17.9
       '@babel/eslint-parser': 7.17.0_@babel+core@7.17.9
       '@stylelint/postcss-css-in-js': 0.38.0_ryeeqdz73dmnun3unz5nxq65vi
       '@typescript-eslint/eslint-plugin': 5.27.1_cjv7yynhkuh3chidw5l5ybstmm
       '@typescript-eslint/parser': 5.27.1
-      '@umijs/babel-preset-umi': 4.0.5
+      '@umijs/babel-preset-umi': 4.0.0-canary.20220628.2
       eslint-plugin-jest: 26.1.5_okhh3gpapq26bqxtjxlwcx3uhq
       eslint-plugin-react: 7.29.4
       eslint-plugin-react-hooks: 4.5.0
@@ -1574,35 +1574,34 @@ packages:
       - typescript
     dev: false
 
-  /@umijs/mfsu/4.0.5:
-    resolution: {integrity: sha512-p4pzuh4iwSTs0filui7CCYye8zY4kH2zpdUeBQxssMHBBaEppNq+Z93jLNmSfI3VOG2APwHI8EIOTiZeK+c6Fw==, tarball: https://registry.npm.alibaba-inc.com/@umijs/mfsu/download/@umijs/mfsu-4.0.5.tgz}
+  /@umijs/mfsu/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-9Amd+/zj2A9PttvZvuC22K2AQwWFoX+FrXNvxQgUcYex6ygFxJQVGa9gzM26Q+cnW3Sv391E3Qw3az48prAfhA==, tarball: https://registry.npm.alibaba-inc.com/@umijs/mfsu/download/@umijs/mfsu-4.0.0-canary.20220628.2.tgz}
     dependencies:
-      '@umijs/bundler-esbuild': 4.0.5
-      '@umijs/bundler-utils': 4.0.5
-      '@umijs/utils': 4.0.5
+      '@umijs/bundler-esbuild': 4.0.0-canary.20220628.2
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
+      '@umijs/utils': 4.0.0-canary.20220628.2
       enhanced-resolve: 5.9.3
       is-equal: 1.6.4
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@umijs/preset-umi/4.0.5:
-    resolution: {integrity: sha512-ywBkYKoNU9FBqJh7qn9DrRhpVwnr03Hs40ilguzsqR8DzuRPGTqlIHUl5i48bG51Pz2BCts/k4pBSfGhIWBKbw==, tarball: https://registry.npm.alibaba-inc.com/@umijs/preset-umi/download/@umijs/preset-umi-4.0.5.tgz}
+  /@umijs/preset-umi/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-ZDYZ4FmM5dOkl0kgfDx24hfobMSxl91bVvDKyvpfaDpvjnB3zF772G8yJMU5s7NwsoChfWYh7ygr5XEIOZHzgA==, tarball: https://registry.npm.alibaba-inc.com/@umijs/preset-umi/download/@umijs/preset-umi-4.0.0-canary.20220628.2.tgz}
     dependencies:
       '@types/multer': 1.4.7
-      '@umijs/ast': 4.0.5
-      '@umijs/babel-preset-umi': 4.0.5
-      '@umijs/bundler-utils': 4.0.5
-      '@umijs/bundler-vite': 4.0.5
-      '@umijs/bundler-webpack': 4.0.5
-      '@umijs/core': 4.0.5
-      '@umijs/renderer-react': 4.0.5_ef5jwxihqo6n7gxfmzogljlgcm
-      '@umijs/server': 4.0.5
-      '@umijs/utils': 4.0.5
+      '@umijs/ast': 4.0.0-canary.20220628.2
+      '@umijs/babel-preset-umi': 4.0.0-canary.20220628.2
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
+      '@umijs/bundler-vite': 4.0.0-canary.20220628.2
+      '@umijs/bundler-webpack': 4.0.0-canary.20220628.2
+      '@umijs/core': 4.0.0-canary.20220628.2
+      '@umijs/renderer-react': 4.0.0-canary.20220628.2_ef5jwxihqo6n7gxfmzogljlgcm
+      '@umijs/server': 4.0.0-canary.20220628.2
+      '@umijs/utils': 4.0.0-canary.20220628.2
       core-js: 3.22.4
       current-script-polyfill: 1.0.0
       enhanced-resolve: 5.9.3
-      fast-glob: 3.2.11
       magic-string: 0.26.2
       path-to-regexp: 1.7.0
       react: 18.1.0
@@ -1624,8 +1623,8 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /@umijs/renderer-react/4.0.5:
-    resolution: {integrity: sha512-OFRwW2SWPEg991qAoAenH8IhzuuLMQZ63ySEF0o7ii5Gn55oGpkGONxYs0KP/Zm3hYDxr2uLiDFxpMaYkjMTPA==, tarball: https://registry.npm.alibaba-inc.com/@umijs/renderer-react/download/@umijs/renderer-react-4.0.5.tgz}
+  /@umijs/renderer-react/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-tBZhIPo9s87KlX1FUuVPk4/XYKHe7uqAvtDlK3HVncvkMPoLmt0A730vF8xTN0AMscNT7x+YYETxtNG8muCmMQ==, tarball: https://registry.npm.alibaba-inc.com/@umijs/renderer-react/download/@umijs/renderer-react-4.0.0-canary.20220628.2.tgz}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
@@ -1635,8 +1634,8 @@ packages:
       react-router-dom: 6.3.0
     dev: false
 
-  /@umijs/renderer-react/4.0.5_ef5jwxihqo6n7gxfmzogljlgcm:
-    resolution: {integrity: sha512-OFRwW2SWPEg991qAoAenH8IhzuuLMQZ63ySEF0o7ii5Gn55oGpkGONxYs0KP/Zm3hYDxr2uLiDFxpMaYkjMTPA==, tarball: https://registry.npm.alibaba-inc.com/@umijs/renderer-react/download/@umijs/renderer-react-4.0.5.tgz}
+  /@umijs/renderer-react/4.0.0-canary.20220628.2_ef5jwxihqo6n7gxfmzogljlgcm:
+    resolution: {integrity: sha512-tBZhIPo9s87KlX1FUuVPk4/XYKHe7uqAvtDlK3HVncvkMPoLmt0A730vF8xTN0AMscNT7x+YYETxtNG8muCmMQ==, tarball: https://registry.npm.alibaba-inc.com/@umijs/renderer-react/download/@umijs/renderer-react-4.0.0-canary.20220628.2.tgz}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
@@ -1648,10 +1647,10 @@ packages:
       react-router-dom: 6.3.0_ef5jwxihqo6n7gxfmzogljlgcm
     dev: false
 
-  /@umijs/server/4.0.5:
-    resolution: {integrity: sha512-wH3w2fCYyUVUktpMuV/IU9Zv24at85lUW4vPYc/MGhbuVnIzZ+rbuIvV3N1iPvwrvV/f/k69B8kP/HdR6UCnAQ==, tarball: https://registry.npm.alibaba-inc.com/@umijs/server/download/@umijs/server-4.0.5.tgz}
+  /@umijs/server/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-+zvPXYsv7Xna6MPLzVn9AfZQ5fDl4DgLy6fFAb4d/z58ibwX/uTKSM+sW45eATLZorn6cg8JvX1hYdtSwLEpyA==, tarball: https://registry.npm.alibaba-inc.com/@umijs/server/download/@umijs/server-4.0.0-canary.20220628.2.tgz}
     dependencies:
-      '@umijs/bundler-utils': 4.0.5
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
       history: 5.3.0
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
@@ -1660,8 +1659,8 @@ packages:
       - supports-color
     dev: false
 
-  /@umijs/test/4.0.5:
-    resolution: {integrity: sha512-WVqjaBZPAlVhY3OvnkA78tlScUwVvZWDFqyLd5mYF4Afr8c0Qy2FbFEi39ZZ4060hlFAbZSausueM1d6VnZEoA==, tarball: https://registry.npm.alibaba-inc.com/@umijs/test/download/@umijs/test-4.0.5.tgz}
+  /@umijs/test/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-PW9682NUQOkbJvob71lTPC7xA+/e3D3BxsUwJM3mewVbV6+jEjV90gUfJLGT9YFcQvk9RkYrFuduIR6QoJLGXQ==, tarball: https://registry.npm.alibaba-inc.com/@umijs/test/download/@umijs/test-4.0.0-canary.20220628.2.tgz}
     dependencies:
       '@jest/types': 27.5.1
       esbuild: 0.14.36
@@ -1673,10 +1672,11 @@ packages:
       - supports-color
     dev: false
 
-  /@umijs/utils/4.0.5:
-    resolution: {integrity: sha512-XLQHpf1tQwmGKPoKIwwxXPjEiX4wY9ZfCJC6G0ygr1ZVGqesYwI8p+HWVjJ28iOFr5DL5RdTfAf2M3Sq3RsK8g==, tarball: https://registry.npm.alibaba-inc.com/@umijs/utils/download/@umijs/utils-4.0.5.tgz}
+  /@umijs/utils/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-/HasXl19SVtZcoEaZL1HVIlg6J3Ulr8XfAxGhhtBB1Hd3rhVEncGpmB3csbeaRli3t7QJWCRifiiDvaEJNK8Rg==, tarball: https://registry.npm.alibaba-inc.com/@umijs/utils/download/@umijs/utils-4.0.0-canary.20220628.2.tgz}
     dependencies:
       chokidar: 3.5.3
+      fast-glob: 3.2.11
       pino: 7.11.0
     dev: false
 
@@ -6230,20 +6230,20 @@ packages:
       is-typedarray: 1.0.0
     dev: false
 
-  /umi/4.0.5:
-    resolution: {integrity: sha512-7zWbyvKIwwu03vjybiuoKZFQJfxJ04AiH/y9/f3weLy3xBkvw/ppKrP0Xd+0/xQO7q6mNNLI9j7VxhF247VNMQ==, tarball: https://registry.npm.alibaba-inc.com/umi/download/umi-4.0.5.tgz}
+  /umi/4.0.0-canary.20220628.2:
+    resolution: {integrity: sha512-laEIiJWFuQQYhNPyco7mVM8o5r3+V/qi5TXq4ipeGcFUnH+1PRaIu/tLtkqIGfsSJMQUMabrAsFapN5IMT9cCA==, tarball: https://registry.npm.alibaba-inc.com/umi/download/umi-4.0.0-canary.20220628.2.tgz}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@umijs/bundler-utils': 4.0.5
-      '@umijs/bundler-webpack': 4.0.5
-      '@umijs/core': 4.0.5
-      '@umijs/lint': 4.0.5
-      '@umijs/preset-umi': 4.0.5
-      '@umijs/renderer-react': 4.0.5
-      '@umijs/server': 4.0.5
-      '@umijs/test': 4.0.5
-      '@umijs/utils': 4.0.5
+      '@umijs/bundler-utils': 4.0.0-canary.20220628.2
+      '@umijs/bundler-webpack': 4.0.0-canary.20220628.2
+      '@umijs/core': 4.0.0-canary.20220628.2
+      '@umijs/lint': 4.0.0-canary.20220628.2
+      '@umijs/preset-umi': 4.0.0-canary.20220628.2
+      '@umijs/renderer-react': 4.0.0-canary.20220628.2
+      '@umijs/server': 4.0.0-canary.20220628.2
+      '@umijs/test': 4.0.0-canary.20220628.2
+      '@umijs/utils': 4.0.0-canary.20220628.2
       prettier-plugin-organize-imports: 2.3.4
       prettier-plugin-packagejson: 2.2.18
     transitivePeerDependencies:
