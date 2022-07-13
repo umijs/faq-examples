@@ -6,6 +6,6 @@
     "setup": "umi setup"
   },
   "dependencies": {
-    "umi": "4.0.0-canary.20220707.1"
+    "umi": "4.0.0-canary.20220713.1"
   }
 }
